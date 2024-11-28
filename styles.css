@@ -1,0 +1,75 @@
+body {
+
+color : white;
+
+background: brown;
+
+margin :0px;
+
+
+    font-family: "Pirata One", system-ui;
+margin-bottom: 100px;    
+  
+}
+
+header {
+    border-bottom: solid 3px rgb(201, 155, 158);
+padding: 20px;
+font-size: 32px;
+
+color:rgb(201, 155, 158);
+
+}
+
+.chamada{
+background: rgb(189, 183, 107);
+padding-bottom: 15px;
+padding-top: 15px;
+display: flex;
+justify-content: center;
+
+}
+
+.chamada-texto{
+margin-right: 5%;
+
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+.categoria-videos {
+display: flex;
+overflow-x: auto;
+gap: 20px;
+}
+
+.categoria{
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 50px;
+}
+
+
+.categoria-videos img {
+ opacity: 0.5;
+height: 200px;
+}
+
+.categoria-videos img:hover{
+opacity: 1.0;
+border: 4px solid white;
+}
+
+.categoria h2{
+  color: rgb(201, 155, 158);
+
+}
+
+
